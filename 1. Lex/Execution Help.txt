@@ -1,0 +1,6 @@
+Stage 1 - Lexical Analysis
+
+~ 	flex compiler.l    	# This command generates lex.yy.c
+~ 	gcc lex.yy.c -lfl -lm  # This command builds lex.yy.c to an executable
+~ 	./a.exe {xxxxx} 	# xxx = Name of file to analyze
+
